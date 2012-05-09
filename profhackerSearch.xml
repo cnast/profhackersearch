@@ -1,0 +1,10 @@
+<OpenSearchDescription xmlns="http://a9.com/-/spec/opensearch/1.1/">
+<ShortName>ProfHacker</ShortName>
+<Description>Search ProfHacker.com</Description>
+<Image width="16" height="16" type="image/png">
+http://www.muckleado.com/tools/profHacker-search.png
+</Image>
+<Url type="text/html" method="GET" template="http://www.profhacker.com/?s={searchTerms}"/>
+<Url type="application/opensearchdescription+xml" rel="self" template="http://www.muckleado.com/tools/profhacker-searchplugin.php"/>
+<InputEncoding>UTF-8</InputEncoding>
+</OpenSearchDescription>
